@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*
+Theme Name: medecine
+Author: GUEREDOU
+Description: Ce theme est un theme de site de vente de produits médicaux.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#topbar {
+  background: #0F056B !important;
+}
+
+/*.appointment-btn{
+   background: $bleu !important; 
+}*/
+.titre {
+  color: #0F056B !important;
+}
+
+.lien {
+  color: #8ac42f !important;
+}
+
+.btn-primary {
+  background-color: #0F056B !important;
+  border-color: #0F056B !important;
+}
+
+.btn {
+  background-color: #0F056B !important;
+  border-color: #0F056B !important;
+}
+
+.contact .info-box i {
+  color: #0f056b !important;
+  border: 2px dotted #0f056b !important;
+}
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: #8ac42f !important;
+}
+
+#hero .bouton {
+  background: #0F056B !important;
+}
+
+#footer .footer-top .social-links a {
+  background: #0f056b !important;
+}
+
+#footer .footer-top .footer-newsletter form input[type=submit] {
+  background: #0f056b !important;
+}
+
+#footer .footer-top .footer-links ul i {
+  color: #0f056b !important;
+}
+
+.icon-chat {
+  color: #0f056b !important;
+}
+
+.meta-chat {
+  color: #0f056b !important;
+}
+
+#hero .bouton:hover {
+  background: #8ac42f !important;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #8ac42f !important;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #8ac42f !important;
+}
+
+#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+  background: #8ac42f !important;
+}
+
+.bloc_commande {
+  border: 1px solid #8ac42f !important;
+}
+
+.btn-success:hover {
+  background-color: #8ac42f !important;
+  border-color: #8ac42f !important;
+}
+
+.bouton-recherche:hover {
+  background-color: #8ac42f !important;
+  border-color: #8ac42f !important;
+}
+
+.lire:hover {
+  color: #8ac42f !important;
+}
+
+.hevor:hover {
+  color: #8ac42f !important;
+}
+
+.appointment-btn:hover {
+  background: #8ac42f !important;
+  border-color: #8ac42f !important;
+}
+
+.bordure-verte {
+  border: 3px solid #EBEBEB;
+}
+
+.bordure-verte:hover {
+  border: 3px solid #8ac42f;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,127 @@
+/*
+Theme Name: medecine
+Author: GUEREDOU
+Description: Ce theme est un theme de site de vente de produits médicaux.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@use 'couleurs';
+
+#topbar{
+   background: couleurs.$barre !important; 
+}
+
+/*.appointment-btn{
+   background: $bleu !important; 
+}*/
+
+.titre{
+   color: couleurs.$titre !important; 
+}
+
+.lien{
+   color: couleurs.$couleur_lien !important; 
+}
+
+
+.btn-primary {
+    background-color: couleurs.$bouton !important;
+    border-color: couleurs.$bordure_bouton !important;
+}
+
+.btn{
+    background-color: couleurs.$bouton !important;
+    border-color: couleurs.$bordure_bouton !important;
+}
+
+.contact .info-box i {
+  color: couleurs.$bleu !important;
+  border: 2px dotted couleurs.$bleu !important;
+}
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: couleurs.$couleur_hover !important;
+}
+
+#hero .bouton {
+    background: couleurs.$bouton !important;
+}
+
+#footer .footer-top .social-links a {
+        background: couleurs.$bleu !important;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+        background: couleurs.$bleu !important;
+}
+
+#footer .footer-top .footer-links ul i{
+        color: couleurs.$bleu !important;
+}
+
+.icon-chat{
+    color: couleurs.$bleu !important;
+}
+
+.meta-chat{
+    color: couleurs.$bleu !important;
+}
+
+
+
+#hero .bouton:hover {
+    background: couleurs.$hover_bouton !important;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+        color: couleurs.$couleur_hover !important;
+}
+
+#footer .footer-top .social-links a:hover{
+    background: couleurs.$hover_bouton !important;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+    background: couleurs.$hover_bouton !important;
+}
+
+.bloc_commande{
+    border: 1px solid couleurs.$vert !important; 
+}
+
+.btn-success:hover {
+    background-color: couleurs.$hover_bouton !important;
+    border-color: couleurs.$vert !important;
+}
+
+.bouton-recherche:hover{
+    background-color: couleurs.$hover_bouton !important;
+    border-color: couleurs.$vert !important;
+}
+
+.lire:hover {
+      color: couleurs.$couleur_hover !important;
+}
+
+.hevor:hover {
+      color: couleurs.$couleur_hover !important;
+}
+
+.appointment-btn:hover{
+   background: couleurs.$vert !important; 
+   border-color: couleurs.$vert !important;
+}
+
+.bordure-verte{
+    border: 3px solid couleurs.$couleur_bordures;
+}
+
+.bordure-verte:hover{
+    border: 3px solid couleurs.$couleur_hover;
+}
